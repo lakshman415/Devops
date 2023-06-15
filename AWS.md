@@ -240,6 +240,7 @@ Sure! Here's a note on the concepts of IP addressing, subnetting, subnet masks, 
 ![S3](./n1.png)
 
 ![S3](./n2.png)
+
 ![S3](./n3.png)
 
 ## Subnetting
