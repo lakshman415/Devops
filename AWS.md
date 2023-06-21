@@ -266,6 +266,8 @@ Sure! Here's a note on the concepts of IP addressing, subnetting, subnet masks, 
 - **Shared Resources**: Peered VPCs can access and share resources, such as Amazon EC2 instances, RDS databases, or other services.
 - **Transitive Peering**: VPC peering supports transitive relationships, allowing communication between VPCs through a hub-and-spoke architecture.
 
-Please note that IP addressing, subnetting, and subnet mask calculations involve more in-depth concepts and calculations. Understanding these concepts thoroughly requires further study and practice.
 
-Feel free to format and enhance the above notes as per your requirements in the Markdown file.
+![S3](./vpc1.png)
+![S3](./vpc2.png)
+![S3](./vpc3.png)
+
