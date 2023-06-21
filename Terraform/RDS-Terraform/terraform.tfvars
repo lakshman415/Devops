@@ -1,0 +1,10 @@
+subnet_id           = "subnet-05141d49e4dbb66da"
+rds_identifier      = "rds-instance-tf"
+db_engine           = "postgres"
+instance_class      = "db.t2.micro"
+allocated_storage   = 20
+storage_type        = "gp2"
+db_username         = "ce-dev-demo"
+db_password         = "ce@12345"
+db_subnet_group     = "ce-dev-demo"
+security_group_ids  = ["sg-05141d49e4dbb66da","sg-04b01b9bd8881076d"]
