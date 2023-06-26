@@ -1,0 +1,11 @@
+---
+- name: Update apt cache
+  apt:
+    update_cache: yes
+  become: true
+
+- name: Install OpenJDK
+  apt:
+    name: openjdk-11-jdk
+    state: present
+  become: true

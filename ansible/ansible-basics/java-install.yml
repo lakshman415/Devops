@@ -1,0 +1,13 @@
+- name: Install Java
+  hosts: javaservers
+  become: true
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Java OpenJDK
+      apt:
+        name: openjdk-11-jdk
+        state: present

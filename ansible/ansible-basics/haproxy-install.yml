@@ -1,0 +1,13 @@
+- name: Install HAProxy
+  hosts: loadbalancers
+  become: true
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install HAProxy
+      apt:
+        name: haproxy
+        state: present

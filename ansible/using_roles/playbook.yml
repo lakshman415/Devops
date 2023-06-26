@@ -1,0 +1,8 @@
+---
+- name: Install Java and Docker
+  hosts: webserver
+  become: true
+
+  roles:
+    - java-install
+    - docker-install
